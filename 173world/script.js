@@ -114,13 +114,36 @@ function init() {
 		//document.getElementById("countryimage").src="img/vega_argentina.png";
 		doStuff("Argentina","img/vega_argentina.png")});
 		
-	document.getElementById("aAustrialia").addEventListener('click', function() {
+	document.getElementById("aAustralia").addEventListener('click', function() {
 		//document.getElementById("countryimage").src="img/vega_australia.png";
 		doStuff("Australia","img/vega_australia.png")});	
 		
 	document.getElementById("aCanada").addEventListener('click', function() {
 		//document.getElementById("countryimage").src="img/vega_canada.png";
 		doStuff("Canada","img/vega_canada.png")});			
+	document.getElementById("aGermany").addEventListener('click', function() {
+		//document.getElementById("countryimage").src="img/vega_canada.png";
+		doStuff("Germany","img/vega_germany.png")});			
+	document.getElementById("aItaly").addEventListener('click', function() {
+		//document.getElementById("countryimage").src="img/vega_canada.png";
+		doStuff("Italy","img/vega_italy.png")});			
+	document.getElementById("aJapan").addEventListener('click', function() {
+		//document.getElementById("countryimage").src="img/vega_canada.png";
+		doStuff("Japan","img/vega_japan.png")});			
+	document.getElementById("aMexico").addEventListener('click', function() {
+		//document.getElementById("countryimage").src="img/vega_canada.png";
+		doStuff("Mexico","img/vega_mexico.png")});			
+	document.getElementById("aSweden").addEventListener('click', function() {
+		//document.getElementById("countryimage").src="img/vega_canada.png";
+		doStuff("Sweden","img/vega_sweden.png")});			
+	document.getElementById("aUganda").addEventListener('click', function() {
+		//document.getElementById("countryimage").src="img/vega_canada.png";
+		doStuff("Uganda","img/vega_uganda.png")});			
+	document.getElementById("aUkraine").addEventListener('click', function() {
+		//document.getElementById("countryimage").src="img/vega_canada.png";
+		doStuff("Ukraine","img/vega_ukraine.png")});			
+
+
 
 	document.getElementById("countryimage").addEventListener('click', function() {
 		hidegraph()});
@@ -165,6 +188,44 @@ function doStuff(x,y) {
 		document.getElementById("countryimage").src = "img/vega_canada.png";		
 	}
 
+	if(x == "Germany")
+	{
+		document.getElementById("countryimage").display = "block";
+		document.getElementById("countryimage").src = "img/vega_germany.png";		
+	}
+	
+	if(x == "Italy")
+	{
+		document.getElementById("countryimage").display = "block";
+		document.getElementById("countryimage").src = "img/vega_italy.png";		
+	}
+	if(x == "Japan")
+	{
+		document.getElementById("countryimage").display = "block";
+		document.getElementById("countryimage").src = "img/vega_japan.png";		
+	}
+	if(x == "Mexico")
+	{
+		document.getElementById("countryimage").display = "block";
+		document.getElementById("countryimage").src = "img/vega_mexico.png";		
+	}
+	if(x == "Sweden")
+	{
+		document.getElementById("countryimage").display = "block";
+		document.getElementById("countryimage").src = "img/vega_sweden.png";		
+	}
+	if(x == "Uganda")
+	{
+		document.getElementById("countryimage").display = "block";
+		document.getElementById("countryimage").src = "img/vega_uganda.png";		
+	}
+	if(x == "Ukraine")
+	{
+		document.getElementById("countryimage").display = "block";
+		document.getElementById("countryimage").src = "img/vega_ukraine.png";		
+	}
+
+
 	//embed vegalite dot plot comparing tested value against other countries
 	
 	
@@ -173,4 +234,3 @@ function doStuff(x,y) {
 function hidegraph() {
 	document.getElementById("countryimage").src = "";
 }
-
