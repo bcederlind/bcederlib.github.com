@@ -191,6 +191,8 @@ function init() {
 
 	document.getElementById("countryimage").addEventListener('click', function() {
 		hidegraph()});
+	document.getElementById("countryimage2").addEventListener('click', function() {
+		hideothergraph()});
 
 }
 window.onload = init;
@@ -218,55 +220,65 @@ function doStuff(x,y) {
 	{
 		document.getElementById("countryimage").display = "block";
 		document.getElementById("countryimage").src = "img/vega_australia.png";		
+		document.getElementById("countryimage2").src = "img/vg_medavg_australia.png";		
 	}
 
 	if(x == "Argentina")
 	{
 		document.getElementById("countryimage").display = "block";
 		document.getElementById("countryimage").src = "img/vega_argentina.png";		
+		document.getElementById("countryimage2").src = "img/vg_medavg_argentina.png";		
 	}
 	
 	if(x == "Canada")
 	{
 		document.getElementById("countryimage").display = "block";
 		document.getElementById("countryimage").src = "img/vega_canada.png";		
+		document.getElementById("countryimage2").src = "img/vg_medavg_canada.png";		
 	}
 
 	if(x == "Germany")
 	{
 		document.getElementById("countryimage").display = "block";
 		document.getElementById("countryimage").src = "img/vega_germany.png";		
+		document.getElementById("countryimage2").src = "img/vg_medavg_germany.png";		
 	}
 	
 	if(x == "Italy")
 	{
 		document.getElementById("countryimage").display = "block";
 		document.getElementById("countryimage").src = "img/vega_italy.png";		
+		document.getElementById("countryimage2").src = "img/vg_medavg_italy.png";		
 	}
 	if(x == "Japan")
 	{
 		document.getElementById("countryimage").display = "block";
 		document.getElementById("countryimage").src = "img/vega_japan.png";		
+		document.getElementById("countryimage2").src = "img/vg_medavg_japan.png";		
 	}
 	if(x == "Mexico")
 	{
 		document.getElementById("countryimage").display = "block";
 		document.getElementById("countryimage").src = "img/vega_mexico.png";		
+		document.getElementById("countryimage2").src = "img/vg_medavg_mexico.png";		
 	}
 	if(x == "Sweden")
 	{
 		document.getElementById("countryimage").display = "block";
 		document.getElementById("countryimage").src = "img/vega_sweden.png";		
+		document.getElementById("countryimage2").src = "img/vg_medavg_sweden.png";		
 	}
 	if(x == "Uganda")
 	{
 		document.getElementById("countryimage").display = "block";
 		document.getElementById("countryimage").src = "img/vega_uganda.png";		
+		document.getElementById("countryimage2").src = "img/vg_medavg_uganda.png";		
 	}
 	if(x == "Ukraine")
 	{
 		document.getElementById("countryimage").display = "block";
 		document.getElementById("countryimage").src = "img/vega_ukraine.png";		
+		document.getElementById("countryimage2").src = "img/vg_medavg_ukraine.png";		
 	}
 
 
@@ -278,3 +290,8 @@ function doStuff(x,y) {
 function hidegraph() {
 	document.getElementById("countryimage").src = "";
 }
+
+function hideothergraph() {
+	document.getElementById("countryimage2").src = "";
+}
+
