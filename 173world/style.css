@@ -1,0 +1,36 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#overlay {
+ z-index=9;
+ float:left;
+ position:absolute;
+ width=100%;
+ height=100%;
+ background-color: white;
+
+}
+
+body {
+	background-color: blue;
+}
+
+.Argentina {
+	fill: red;
+	stroke: white;
+	stroke-width: .25;
+
+}
+svg path {
+	fill: green;
+	stroke: white;
+	stroke-width: .25;
+}
+svg path:hover {
+	fill:white;
+	transition:0.2s;
+	cursor:pointer;
+	
+}
