@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html xml:lang="en" lang="en">
+<head>
+  <title>CSC 196V  Assignment 2</title>
+  <style>
+* { padding: 0; margin: 0; }
+
+body {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  background-color: #33333f;
+  width: 840px;
+  font-family: "Avenir", "Avenir Next", Helvetica Neue, Arial;
+  font-size: 0.95em;
+}
+
+a, a:visited { text-decoration: none; color: #7533f4; }
+a:hover { text-decoration: underline; color: #f4b014; }
+img, a.img, a:hover.img { border: none; }
+
+img {
+  max-width: 800px;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #492a7c;
+  background-color: inherit;
+  font-weight: normal;
+  padding: 0 0 5px 0;
+  margin: 15px 0 0 0;
+  border: none;
+  clear: right;
+}
+h1 { font-size: 18pt; margin:  5px 0 10px 0; line-height: 28px; }
+h2 { font-size: 14pt; margin: 30px 0 15px 0; letter-spacing: 0.01em; border-bottom: 1px solid #ccc;  line-height: 20px;}
+h3 { font-size: 13pt; }
+h4 { font-size: 12pt; }
+h5 { font-size: 11pt; }
+p { margin: 0 0 10px 0; }
+hr { border: 0px; border-top: 1px solid #ccc; height: 0px; }
+ol { margin: 1em; }
+
+.content {
+  margin: 0;
+  padding: 15px 20px;
+  background-color: #ffffff;
+}
+
+.article {
+  line-height: 1.5em;
+}
+
+.entry  {
+  border-top: 1px solid #ddd;
+  padding-top: 2px;
+  margin-top: 3em;
+}
+  </style>
+</head>
+
+<body>
+<div class='content'>
+
+<section>
+  <h1>Assignment 2: Exploratory Data Analysis</h1>
+
+  <p>
+    <strong>Ben Cederlind</strong>
+  </p>
+</section>
+
+<section>
+  <h2>Dataset</h2>
+
+  <p>
+    <br/>
+
+
+  </p>
+
+  <p>
+    The data is available online at:
+    <strong>
+      <a href="https://github.com/ZeningQu/World-Bank-Data-by-Indicators"</a>
+    </strong>
+  </p>
+</section>
+
+<section>
+  <h2>Initial Analysis Questions</h2>
+  <ol>
+    <li>QUESTION_1</li>
+		Which source of energy is the most used today?
+    <li>QUESTION_2</li>
+		Which countries use the most energy?
+    <li>QUESTION_3</li>
+		Are servers the reason that they are using so much energy?
+    <li>...</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Discoveries &amp; Insights</h2>
+
+  <div class="entry">
+    <img src="amountovernergyusedovertimeworld.JPG" />
+    <p class="caption">
+    This is a graph of worldwide energy use over time.
+    </p>
+  </div>
+
+  <div class="entry">
+    <img src="amountofpowerlost.JPG" />
+    <p class="caption">
+	This is the amount of power lost over time worldwide. 
+	</p>
+  </div>
+  
+  <div class="entry">
+    <img src="COALPRODUCTIONOVERTIME.JPG" />
+    <p class="caption">
+    This is the amount of coal production worldwide over time.
+    </p>
+  </div>
+
+  <div class="entry">
+    <img src="gasproductionovertime.JPG" />
+    <p class="caption">
+    This is the amount of gas production worldwide over time.
+    </p>
+  </div>
+
+  <div class="entry">
+    <img src="hydroelectricovertime.JPG" />
+    <p class="caption">
+    This is the amount of hydroelectric production worldwide over time.    
+	</p>
+  </div>
+
+  <div class="entry">
+    <img src="oilproductionovertime.JPG" />
+    <p class="caption">
+    This is the amount of oil production worldwide over time.
+    </p>
+  </div>
+
+  <div class="entry">
+    <img src="nuclearovertime.JPG" />
+    <p class="caption">
+    This is the amount of nuclear production worldwide over time.
+    </p>
+  </div>
+
+  <div class="entry">
+    <img src="averageenergyusepercountry.JPG" />
+    <p class="caption">
+    This is the amount of energy use per country.    
+	</p>
+  </div>
+  
+  <div class="entry">
+    <img src="Mobilecellsubscriptions.JPG" />
+    <p class="caption">
+   This is the amount of mobile cell subscriptions per country.    </p>
+  </div>
+
+  <div class="entry">
+    <img src="numberofservers.JPG" />
+    <p class="caption">
+		This is the number of server per country.
+    </p>
+  </div>
+
+  <div class="entry">
+    <h3>Summary</h3>
+    <p>
+		First off it should be noted that the data ends at 2014 and solar energy is not included so it could be completely different now. I figured with the invention of computers energy use would spike and we can see that during the 90's when personal computers became more common.  
+		The amount of power lost over time worldwide was interesting because it looks like theres quite an overhead for energy lost, it looks like 70% is lost which is really, really bad. 
+		Coal has been going up, corresponding with total energy use which might show that coal is a primary energy source.  Gas spiked in the 90's which might correspond to the computer/tech revolution around that time.  I would imagine they made more of what they already knew.
+		Hydroelectric power has gone down over time, to me it seems hydroelectric energy would be the cleanest energy but because of the demands in water it makes sense it would go down.  Oil has gone down drastically which makes sense since it is so rare, based on the chart it looks like this was a primary source of energy from early on, so i imagine alot of it was wasted in the past.  Nuclear has gone up over time and has now gone down a bit which I find strange, but it is probably due to the extreme risks associated with nuclear energy.  
+		If we look at average energy use per country we see that iceland and norway are at the top which is strange since these countries are so remote.  Probably some kind of secret stuff there.  I wanted to see if mobile cell use or server use would explain this phenomenom but it did not.  It looks like mobile cell subscriptions corresponds with population (i have no references for this but we all know that china and india have trouble with population control).  
+		The largest number of servers is in the united states.  I kind of expected that remote servers would be setup in iceland or norway and that would explan the energy spike but I was wrong here.
+    </p>
+  </div>
+</section>
+
+</div>
+</body>
+</html>
