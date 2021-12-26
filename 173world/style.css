@@ -16,6 +16,8 @@
 }
 
 #graphdiv {
+ padding-top:75px;
+ padding-left:75px;
  z-index=11;
  float:right;
  position:absolute;
