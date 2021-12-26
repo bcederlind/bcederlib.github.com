@@ -53,6 +53,42 @@ body {
 
 }
 
+#DE {
+	stroke: white;
+	stroke-width: 5;
+
+}
+
+.Italy {
+	stroke: white;
+	stroke-width: 5;
+
+}
+
+.Japan {
+	stroke: white;
+	stroke-width: 5;
+
+}
+
+#MX {
+	stroke: white;
+	stroke-width: 5;
+
+}
+
+#UG {
+	stroke: white;
+	stroke-width: 5;
+
+}
+
+#UA {
+	stroke: white;
+	stroke-width: 5;
+
+}
+
 svg path {
 	fill: green;
 	stroke: white;
